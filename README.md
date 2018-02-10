@@ -1,6 +1,6 @@
 # amqp-rabbit
 
-# Simple RabbitMQ library that built on top of amqplib
+### Simple RabbitMQ library that built on top of amqplib
 
 #### INSTALLATION
 
@@ -71,3 +71,35 @@ Process B:
   }, 1000)
 ```
 ---
+### publish - subscribe
+Make a simple sending and receiving of messages in a 1:N fashion. Looks similar to send - listen, the difference is one sends a message and any subsribers can receive.
+
+Process A:
+
+```javascript
+
+  rabbit.subscribe('broadcast', (message) => {
+    console.log(message) // { msg: 'this is a broadcast message'}
+  })
+
+```
+
+Process B:
+
+```javascript
+
+  rabbit.subscribe('broadcast', (message) => {
+    console.log(message) // { msg: 'this is a broadcast message'}
+  })
+
+```
+
+Process C: 
+
+```javascript
+
+  setInterval(() => {
+    rabbit.publish('broadcast', { msg: 'this is a broadcast message'})
+  }, 1000)
+
+```

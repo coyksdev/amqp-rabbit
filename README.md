@@ -9,6 +9,7 @@ npm install --save amqp-rabbit
 #### FEATURES
 * send/listen
 * request/reply
+* publish/subscribe
 * auto reconnect
 
 #### Setting up a connection

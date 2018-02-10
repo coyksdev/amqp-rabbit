@@ -1,6 +1,5 @@
 # amqp-rabbit
-
-### Simple RabbitMQ library that built on top of amqplib
+Simple RabbitMQ library that built on top of amqplib
 
 #### INSTALLATION
 

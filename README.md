@@ -1,1 +1,1 @@
-# amqp-service
+# amqp-rabbit

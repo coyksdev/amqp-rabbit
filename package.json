@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/campanagerald/amqp-service.git"
+    "url": "git+https://github.com/campanagerald/amqp-rabbit.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/campanagerald/amqp-service/issues"
+    "url": "https://github.com/campanagerald/amqp-rabbit/issues"
   },
-  "homepage": "https://github.com/campanagerald/amqp-service#readme",
+  "homepage": "https://github.com/campanagerald/amqp-rabbit#readme",
   "dependencies": {
     "amqplib": "^0.5.2"
   }

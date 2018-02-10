@@ -1,0 +1,22 @@
+{
+  "name": "amqp-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campanagerald/amqp-service.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/campanagerald/amqp-service/issues"
+  },
+  "homepage": "https://github.com/campanagerald/amqp-service#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}

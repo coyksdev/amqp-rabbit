@@ -1,6 +1,6 @@
 {
   "name": "amqp-rabbit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,16 @@
   },
   "keywords": [
     "amqp-rabbit",
-    "rpc",
     "amqp",
     "amqplib",
-    "rabbitmq"
+    "rabbitmq",
+    "publish",
+    "subscribe",
+    "send",
+    "listen",
+    "request",
+    "reply",
+    "rpc"
   ],
   "repository": {
     "type": "git",

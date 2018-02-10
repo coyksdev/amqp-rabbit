@@ -6,11 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "amqp-rabbit",
+    "rpc",
+    "amqp",
+    "amqplib",
+    "rabbitmq"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/campanagerald/amqp-rabbit.git"
   },
-  "author": "",
+  "author": "Gerald Campana <campanagerald@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/campanagerald/amqp-rabbit/issues"

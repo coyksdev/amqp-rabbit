@@ -1,5 +1,7 @@
 # amqp-rabbit
 
+# Simple RabbitMQ library that built on top of amqplib
+
 #### INSTALLATION
 
 npm install --save amqp-rabbit

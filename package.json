@@ -1,5 +1,5 @@
 {
-  "name": "amqp-service",
+  "name": "amqp-rabbit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

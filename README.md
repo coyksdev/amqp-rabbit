@@ -48,6 +48,18 @@ Process B:
     })
 
 ```
+
+Alternative Process B:
+```javascript
+  
+  const add = rabbit.setupRequest('add');
+  // send a request
+  add({ num1: 10, num2: 15 })
+    .then(rep => {
+      console.log(rep.result) // 25
+    })
+
+```
 ---
 ### send - listen
 Make a simple sending and receiving of messages in a 1:1 sender:listener fashion. Process B send a message every 1 second to Process A.

@@ -1,1 +1,1 @@
-module.exports = require('./lib/Rabbit')
+module.exports = require('./lib/Rabbit');

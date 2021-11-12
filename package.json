@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/campanagerald/amqp-rabbit#readme",
   "dependencies": {
+    "amqp-connection-manager": "^3.7.0",
     "amqplib": "^0.5.2",
     "uuid": "^3.2.1"
   }

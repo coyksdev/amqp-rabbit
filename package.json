@@ -31,6 +31,6 @@
   "homepage": "https://github.com/campanagerald/amqp-rabbit#readme",
   "dependencies": {
     "amqplib": "^0.5.2",
-    "uuid": "^3.2.1"
+    "uuid": "^14.0.0"
   }
 }
